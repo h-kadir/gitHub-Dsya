@@ -1,0 +1,45 @@
+Sizin dosya ayarlarınızla ilgili bir sıkıntı var görünüyor
+git kurulumunu yeniden yapmayı deneyin yine olmazsa 
+https://stackoverflow.com/questions/4492979/error-git-is-not-recognized-as-an-internal-or-external-command
+
+bu linkte bir çözüm var onu deneyin.
+
+
+PATH'inizi Git kurulumunuzu gösterecek şekilde doğru ayarlamamış olabilirsiniz.
+
+PATH'e aşağıdaki yolları eklemeniz gerekir:
+
+C:\Program Files\Git\bin\
+C:\Program Files\Git\cmd\
+Ve bu yolların doğru olup olmadığını kontrol edin. Git'i farklı bir sürücüye veya Program Files (x86) altına kurmuş olabilirsiniz. Gerekirse yolları düzeltin.
+
+Windows 10'da PATH'i değiştirme:
+
+Başlat Menüsü'nde veya görev çubuğu aramasında "ortam değişkeni "ni arayın.
+"Sistem ortam değişkenlerini düzenle "yi seçin.
+Alttaki "Ortam Değişkenleri" düğmesine tıklayın.
+"Sistem değişkenleri" altındaki "Yol" girişine çift tıklayın.
+PATH düzenleyicisindeki "Yeni" düğmesi ile listenin sonuna C:\Program Files\Git\bin\ ve C:\Program Files\Git\cmd\ ekleyin.
+Konsolunuzu kapatın ve yeniden açın.
+Windows 7'de YOL'u değiştirme:
+
+Masaüstünde veya Başlat Menüsünde "Bilgisayar "a sağ tıklayın.
+"Özellikler "i seçin.
+En soldaki "Gelişmiş sistem ayarları" bağlantısına tıklayın.
+En alttaki "Ortam Değişkenleri" düğmesine tıklayın.
+"Sistem değişkenleri" altındaki "Yol" girişine çift tıklayın.
+"Değişken değeri "nin sonuna, eğer yoksa bir ; ekleyin ve ardından C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\ yazın. Giriş ile ; arasına boşluk koymayın.
+Konsolunuzu kapatın ve yeniden açın.
+Bu talimatlar yardımcı olmadıysa, diğerlerine bakmaktan çekinmeyin:
+
+Windows'ta yol ve ortam değişkenleri nasıl ayarlanır (Bilgisayar Umut)
+Windows'ta kolay komut satırı erişimi için sistem PATH'inizi düzenleme (How-To Geek)
+Windows 10'da Path ortam değişkenleri nasıl ayarlanır (Addictive Tips)
+PATH ve diğer ortam değişkenleri nedir ve bunları nasıl ayarlayabilir veya kullanabilirim? (Süper Kullanıcı)
+
+
+böyle bir çözüm yolu önermiş. ya da @technicalsupport a yazın bakarlar muhtemelen
+
+ben bir arkadaşa daha bakacağım size kolay gelsin
+
+
